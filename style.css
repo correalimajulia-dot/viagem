@@ -1,0 +1,59 @@
+body {
+    background-color: #0E1A14; /* Verde-escuro floresta profunda */
+    color: #ECF3EF; /* Branco folha suave para leitura confortável */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #A3E635; /* Verde-lima / Broto vibrante */
+    color: #0E1A14; /* Texto escuro da cor da floresta para alto contraste */
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase; /* Deixa o texto dos botões em caixa alta */
+    letter-spacing: 1px; /* Espaçamento entre as letras do botão */
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 12px rgba(163, 230, 53, 0.3); /* Brilho orgânico suave */
+}
+
+/* Efeito ao passar o mouse por cima do botão */
+button:hover {
+    background-color: #BEF264; /* Verde-lima mais claro, cor de folha nova */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão ao passar o mouse */
+    box-shadow: 0 0 22px rgba(163, 230, 53, 0.7); /* Intensifica o brilho natural */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 85%;
+    background-color: #16281F; /* Verde-musgo intermediário para o container */
+    padding: 40px;
+    border-radius: 16px;
+    border: 2px solid #22C55E; /* Borda cor de folha viva para destacar o card */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #15803D; /* Pequena moldura verde ao redor da imagem */
+}
